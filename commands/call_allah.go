@@ -22,7 +22,7 @@ func (c CallAllah) Run(src cmd.Source, o *cmd.Output) {
 	l := entity.NewLightning(p.Position())
 	p.World().AddEntity(l)
 
-	p.Message("§4§lThe Almighty ALLAH (صلى الله عليه وسلم) HAS ARRIVED!")
+	p.Message("§4§lThe Almighty ALLAH HAS ARRIVED!")
 
 	bb := bossbar.New("§4§lبِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ")
 	p.SendBossBar(bb)
